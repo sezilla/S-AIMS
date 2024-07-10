@@ -1,5 +1,5 @@
 # S-AIMS
- attendance and information management system
+ An Attendance and Information Management System
 
 
 
