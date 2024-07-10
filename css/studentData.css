@@ -1,0 +1,94 @@
+body {
+    background: #f2f2f2;
+    font-family:'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e2e0e0;
+    padding: 20px;
+    margin: -8px;
+}
+
+.logo {
+    width: 333.33px;
+    height: 47px;
+}
+
+.settingsButton{
+    width: 55px;
+    height: 55px;
+    border: none;
+    background-color: #e2e0e0;
+    position: fixed;
+    right: 20px;
+}
+
+.sidebarcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 56px;
+    height: 806px;
+    background-color: #E8E8E8;
+    padding: 20px;
+    margin: -8px;
+    left: 0px;
+    position: relative;
+    top: 8px;
+}
+
+
+.adminButton {
+    position: relative;
+    left: -6px;
+    width: 65px;
+    height: 65px;
+    border: none;
+    background-color: #E8E8E8;
+}
+
+.homediv {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.homeButton {
+    width: 65px;
+    height: 65px;
+    border: none;
+    background-color: #E8E8E8;
+}
+
+.managementButton {
+    width: 65px;
+    height: 65px;
+    border: none;
+    background-color: #E8E8E8;
+}
+
+.backdiv {
+    position: fixed;
+    bottom: 20px;
+}
+
+.backButton {
+    position: relative;
+    left: -3px;
+    bottom: -10px;
+    width: 65px;
+    height: 65px;
+    border: none;
+    background-color: #E8E8E8;
+}
+
+.content {
+    margin-top: -800px;
+    margin-left: 150px;
+    margin-right: auto;
+    width: 400px;
+    position:relative;
+    top: auto;
+  }

@@ -1,0 +1,68 @@
+.container {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.box,
+.box1 {
+  display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.box .content,
+.box1 .content1 {
+  max-width: 340px;
+  position: relative;
+  padding: 20px;
+  background: #e6b800;
+  transition: 0.5s;
+  border-radius: 10px;
+  color: #333333;
+  text-align: left;
+  padding-right: 30px;
+}
+.box .content a,
+.box1 .content1 a {
+  color: #f2f2f2;
+  padding-top: 50px;
+}
+.box:hover .content,
+.box1:hover .content1 {
+  background: #7b5c00;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  transform: translateY(-10px);
+  color: #f2f2f2;
+}
+.box .content a,
+.box1 .content1 a {
+  text-decoration: none;
+  color: #333333;
+  visibility: hidden;
+}
+
+.box:hover .content a,
+.box1:hover .content1 a {
+  transform: translateY(-10px);
+  color: #f2f2f2;
+  position: relative;
+  left: 250px;
+  visibility: visible;
+}
+.box .content i,
+.box1 .content1 i {
+  font-size: 140px;
+  color: #7b5c00;
+  transition: 0.5s;
+  text-align: center;
+  position: relative;
+  left: 85px;
+  padding-bottom: 50px;
+}
+
+.box:hover .content i,
+.box1:hover .content1 i {
+  color: #e6b800;
+}
